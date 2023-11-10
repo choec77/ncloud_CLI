@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ## ncloud 파일 경로로 수정
-ncloud='/root/CLI_1.1.12_20230223/cli_linux/ncloud '
+ncloud='/CLI_1.1.16_20230822/cli_linux/ncloud '
 
 ## 변수 선언
 regionCode=''
@@ -133,7 +133,7 @@ for ((s=1; s<=$subnetCount; s++)); do
 
     case $selection3 in
       1) zoneCode="KR-1" ;;
-      2) zoneCode="KR-2" ;;;
+      2) zoneCode="KR-2" ;;
       *) echo "올바른 선택이 아닙니다. 1,2 중에서 선택해주세요." ;;
     esac
   done
